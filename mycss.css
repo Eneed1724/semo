@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>스타일 없는 웹 페이지</title></head>
+<style>
+    h3, li {
+        color : brown;
+    }
+    div > div > strong {
+        color : lightgreen;
+    }
+    ul strong {
+        color : aqua;
+    }
+    .warning {
+        color : red;
+        text-decoration: line-through;
+        text-align: right;
+    }
+    .main {
+        background-color: beige;
+    }
+    div.main {
+        color : royalblue;
+        text-decoration: underline;
+        text-align: right;
+    }
+    #list {
+        background-color: mistyrose;
+        text-align: left;
+    }
+    #list span {
+        color:  forestgreen;
+    }
+    h3::first-letter {
+        font-size:  50px;
+    }
+    li:hover {
+        background-color: thistle;
+    }
+    div > div {
+        text-align: center;
+    }
+    body {
+        font-family: 'Times New Roman',serif;
+    }
+</style>
+<body class="main">
+    <h3>Web Programming</h3>
+    <hr>
+    <div>
+        <div>2학기 <strong>학습 내용</strong>입니다.</div>
+        <ul id="list">
+             <li><span>HTML5</span></li>
+            <li><strong>CSS</strong></li>
+            <li>JAVASCRIPT</li>
+        </ul>
+        <div class="warning">60점 이하는 F</div>
+        <div class="main">90점 이상은 A</div>
+    </div>
+    </body>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+<style>
+#menubar div {
+    display:inline-block;
+    padding: 30px;
+    font-size: 35px;
+    font-family:'Courier New', Courier, monospace;
+}
+#menubar div a {
+    text-decoration: none;
+}
+#achievment-font {
+    color: #333;
+    animation : achievment-font 6s infinite;
+}
+
+@keyframes achievment-font {
+    25% {color:gold;}
+    50% {color:blueviolet;}
+    75% {color:aqua;}
+}
+#enderdragon-font {
+    color: #333;
+    animation : achievment-font 6s infinite;
+}
+
+@keyframes achievment-font {
+    25% {color:rgb(75, 22, 124);}
+    50% {color:rgb(180, 180, 154);}
+    75% {color:blueviolet;}
+}
+#overworld  p {
+    display: inline-block;
+    font-weight: bold;
+}
+#overworld_description {
+    float: left;
+}
+#overworld_description p {
+    font-size: 20px;
+}
+#netherworld  p {
+    display: inline-block;
+    font-weight: bold;
+}
+#netherworld_description {
+    float: left;
+}
+#netherworld_description p {
+    font-size: 20px;
+}
+</style>
+
+
+</head>
+
+
+<body>
+
+<div id="menubar" style="text-align: center; display: inline-block; margin-top: 30px; margin-left: 30px;">
+    <div style="background-color:coral">
+        <a href="./Minecraft lab Lobby.html">Home</a>
+    </div>
+    <div style="background-color: navajowhite;">
+        <a href="./Minecraft lab PVP.html">PVP</a>
+    </div>
+    <div style="background-color: beige;">
+        <a href="./Minecraft lab Command.html">Command</a>
+    </div>
+    <div style="background-color: lightgreen;">
+        <a>Survival</a>
+    </div>
+    <div style="background-color: limegreen;">
+        <a href="./Minecraft lab Mod review.html">Mod</a>
+    </div>
+    <div style="background-color: skyblue;">
+        <a href="./Minecraft lab Skill.html">Skill</a>
+    </div>
+    <div style="background-color: darkcyan;">
+        <a href="./Minecraft lab History.html">History</a>
+    </div>
+    <img src="./minecraft lab logo-image (1).png" style="width: 15%; height: 16%; display: inline-block; position: absolute; margin-left: 30px; ">
+</div>
+
+<div id="survival" style="background-color: azure;">
+    <p style="font-size:50px; text-align: center;" id="enderdragon-font">야생</p>
+    <hr>
+    <div id="overworld" style="margin-top: 50px;">
+        <video src="./video/Minecraft 2023-06-13 20-36-49.mp4" width="50%" height="50%" style="border-radius : 25px; float: left;" muted autoplay loop></video>
+        <div id="overworld_description" style="display: flex-end; margin-left: 25px;">
+            <p>오버월드에서는 <image src="./Minecraft-Survival,hunt-crossbow-image.gif" style="width: 15px; height: 15px;"></image>사냥과 <image src="./Minecraft-Survival.farm-carrot-image.jpg" style="width: 15px; height: 15px;"></image>농사를 통해 식량을 얻을 수 있습니다.</p><br> 
+            <p>채굴을 통해 <span style="background-color: gray;"><span style="color: antiquewhite;">철</span>, <span style="color: gold;">금</span>, <span style="color: lightgreen;">에메랄드</span>, <span style="color: darkturquoise;">다이아몬드</span></span>와 같은 여러 광물을 얻을 수 있습니다.</p><br>
+            <p>그리고 주민과의 거래를 통해 에메랄드를 얻고 여러 아이템을 살 수 있습니다.</p><br>
+            <p>모험을 떠나고 여러 유적을 탐험할 수도 있습니다.</p>
+            <p><img src="./Minecraft-Survival.raid-illager-image.png" style="width: 17px; ">습격을 막아내고 <img src="./Minecraft-Survival.effect-hero_of_the_village-image.png" style="width: 15px;">마을의 영웅이 될 수도</p><br>
+            <p>고대도시에서 <img src="./Minecraft-Survival.warden-image.png" style="width: 15px;">워든을 피해 여러 전리품을 얻을 수도 있습니다.</p><br>
+            <p>야생에서 아이템을 획득하고 나만의 건축물을 짓고 드넓은 세상으로 모험을 떠나보세요.</p>
+        </div>
+    </div>
+
+    <div id="netherworld" style="text-align: right; margin-top: 25px; display: inline-block;">
+        <video src="./video/Minecraft 2023-06-22 20-24-23.mp4" width="50%" height="50%" style="border-radius: 25px; float: right;"muted autoplay loop></video>
+        <div id="netherworld_description" style="display: flex-end; margin-left: 25px; text-align: left;">
+            <p>네더월드에서는 네더요새와 바스티온, 파괴된 포탈과 여러 멋진 지형들을 만나볼 수 있습니다.</p><br>
+            <p>바스티온에서 금블럭과 여러 아이템을 얻고 </p>
+            <p>그곳의 주민, <img src="./Minecraft-Survival.nether-bastion.piglin-image.png" style="width: 15px;">피글린들과 거래를 할 수 있습니다.</p><br>
+            <p>네더요새에서는 위더스켈레톤을 사냥해서 위더를 소환할 수 있는 아이템인</p><br>
+            <p>위더 스켈레돈 해골을 낮은 확률로 획득할 수 있습니다.</p><br>
+            <p>또 <img src="./Minecraft-Survival.nether.fortress-blaze-image.png" style="width: 15px;">블레이즈를 사냥해서 블레이즈 막대를 얻을 수 있는데 이는</p><br> 
+            <p>엔더에 입장하기 위한 "<span style="font-weight: bold; color:rgb(8, 117, 81);">엔더의 눈</span>"을 만들때 필요한 재료인 블레이즈 가루를 만들 수 있고</p><br>
+            <p>블레이즈 가루와 다른 재료를 이용하여 특별한 효과를 주는 포션(물약)을 제조할 수 있습니다.</p>
+            <p></p>
+            <p></p>
+            <p></p>
+        </div>
+    </div>
+
+    <div id="end" style="text-align:left; margin-top:25px; display: inline-block;">
+        <video src="./video/Minecraft 2023-06-22 20-39-14.mp4" width="50%" height="50%" style="border-radius: 25px; float: left;" muted autoplay loop></video>
+        <div id="enderworld_description" style="display: flex-end; float: left; font-weight: bold; font-size: 20px; margin-left: 25px;">
+            <p>엔더월드에서는 마인크래프트의 최종보스인 엔더드래곤을 처치할 수 있고</p><br>
+            <p>엔더드래곤 처치 시 엔드의 먼 곳으로 이동되는 엔드게이트웨이 포탈이 생성됩니다.</p><br>
+            <p>엔드게이트웨이 포탈을 타고 조금 돌아다니면 엔드 시티를 발견할 수 있습니다.</p>
+            <p style="margin-left: 150px;">(운이 안좋으면 몇시간동안 못찾을 수도..)</p><br>
+            <p>엔드시티 내부에서는 셜커만 조심한다면 많은 아이템을 얻을 수 있습니다.</p><br>
+            <p>엔드시티 옆에 배가 1척 생성될 때가 있는데 (이것도 운이 안좋으면 없을때가 있다.)</p><br>
+            <p>배 안에서 하늘을 활공할 수 있는 아이템, 겉날개를 얻을 수 있습니다.</p><br>
+            <p></p><br>
+        </div>
+    </div>
+</div>
+
+<div id="temple" style="text-align:center; margin-top:125px; background-color: rgb(242, 231, 255);">
+    <hr>
+    <p style="font-size:50px;" id="achievment-font">유적</p>
+    <hr>
+    <img src="./Minecraft-Survival.Survival-pyramind-image.png" style="margin-top: 75px; width: 350px;">
+    <p style="font-size: 35px; font-weight: bold; text-align: center; text-shadow: 0px 0px 2px black;"><span style="color: rgb(255, 238, 0);">피</span><span style="color: rgb(230, 226, 0);">라</span><span style="color: rgb(244, 247, 81);">미</span><span style="color: rgb(255, 253, 130);">드</span></p>
+</div>
+</body>
+
+</html>
